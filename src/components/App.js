@@ -2,7 +2,11 @@ import React, { Component, useState } from "react";
 import "../styles/App.css";
 
 class App extends Component {
-  handleClick = () => {};
+  handleClick = () => {
+    let element = document.getElementById("para");
+    element.innerText =
+      "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy";
+  };
 
   render() {
     return (
